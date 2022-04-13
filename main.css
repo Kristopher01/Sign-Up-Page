@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#fff;
+    background-color: black;
+    background-image: url(https://wallpaperaccess.com/full/1981824.png);
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding-top: 10px;
+
+    background-color:white;
+    color:black;
+
+}
+
+.col-1,
+.col-2 {
+    position: relative;
+}
+
+
+.col-1{
+    padding-left: 15px;
+}
+
+.col-2{
+    width: 95%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+   
+    
+}
+
+.menu li{
+    margin: 0 35px;
+    border: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.sign-up-form{
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    width :400px;
+    height :190px;
+    margin: 8% auto 0;
+    text-align: center;
+    padding:40px;
+    box-shadow: 50px;
+
+    
+}
+
+.apply-btn{
+    color: #fff;
+    width:100%; 
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: black;
+    margin-top: 13px;
+    padding: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-box{
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%;
+}
